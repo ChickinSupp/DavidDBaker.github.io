@@ -37,7 +37,9 @@ section {
     padding: 1%;
 }
 
+/* ---------------------------------- */
 /* HEADINGS */
+/* ---------------------------------- */
 
 h1,
 h2,
@@ -78,7 +80,11 @@ h2:after {
     margin-top: 30px;6
 }
 
-/* ----- PARAGRAPHS -----*/
+
+/* ---------------------------------- */
+/* PARAGRAPHS */
+/* ---------------------------------- */
+
 .long-copy {
     line-height: 145%;
     width: 70%;
@@ -90,7 +96,11 @@ h2:after {
     line-height: 145%;
 }
 
-/* ----- ICONS -----*/
+
+/* ---------------------------------- */
+/* ICONS */
+/* ---------------------------------- */
+
 .icon-big {
     font-size: 350%;
     display: block;
@@ -98,7 +108,10 @@ h2:after {
     margin-bottom: 10px;
 }
 
+/* ---------------------------------- */
 /* HEADER */
+/* ---------------------------------- */
+
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/img/hero.jpg);
     background-size: cover;
@@ -114,7 +127,9 @@ header {
     transform: translate(-50%, -50%);
 }
 
-/* --- BUTTONS --- */
+/* ---------------------------------- */
+/* BUTTONS */
+/* ---------------------------------- */
 
 .btn:link, 
 .btn:visited {
@@ -157,8 +172,9 @@ header {
     color: #fff;
 }
 
-
+/* ---------------------------------- */
 /* LOGO */
+/* ---------------------------------- */
 
 .logo {
     height: 100px;
@@ -167,7 +183,9 @@ header {
     margin-top: 20px;
 }
 
+/* ---------------------------------- */
 /* NAVIGATION */
+/* ---------------------------------- */
 
 .main-nav {
      float: right;
@@ -195,6 +213,56 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
 }
+
+
+/* ---------------------------------- */
+/* MEALS */
+/* ---------------------------------- */
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+}
+
+.meals-photo img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
