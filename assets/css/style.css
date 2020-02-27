@@ -263,11 +263,30 @@ header {
 }
 
 
+/* ---------------------------------- */
+/* HOW IT WORKS */
+/* ---------------------------------- */
 
+.steps-box {
+    margin-top: 30px;
+}
 
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+}
 
+.steps-box:last-child {
+    padding-left: 3%;
+}
 
+.app-screen {
+    width: 50%;
+}
 
+.button-app img{
+    width: 40%;
+}
 
 
 
