@@ -1,3 +1,4 @@
+// sticky navigation
 $(document).ready(function() {
 
     $('.js--section-features').waypoint(function(direction) {
@@ -6,5 +7,8 @@ $(document).ready(function() {
         } else {
             $('nav').removeClass('sticky');
         }
+       
+    }, {
+        offset: '80px'
     });
 });
