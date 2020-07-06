@@ -18,14 +18,19 @@ $(document).ready(() => {
         $('html, body').animate({scrollTop: $('.js--section-plan').offset().top}, 1000)
     });
 
+    //button not working
     $('.js--scroll-to-start').click((e) => {
         e.preventDefault()
         $('html, body').animate({scrollTop: $('js--section-features').offset().top}, 1000)
     });
 
 
+    $('.')
 
 
+
+
+    
 
 });
 
