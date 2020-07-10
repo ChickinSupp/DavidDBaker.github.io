@@ -75,11 +75,30 @@ $(document).ready(() => {
 
 
 //   Animations on scroll
-  $(".js--wp-1").waypoint( () => {
-      $(".js--wp-1").addClass("animate__animated  animate__fadeIn");
+  $(".js--anim-1").waypoint( () => {
+      $(".js--anim-1").addClass("animate__animated  animate__fadeIn");
     }, {
         offset: '50%'
     });
+
+    $(".js--anim-2").waypoint( () => {
+        $(".js--anim-2").addClass("animate__animated  animate__fadeInUp");
+      }, {
+          offset: '50%'
+      });
+
+      $(".js--anim-3").waypoint( () => {
+        $(".js--anim-3").addClass("animate__animated  animate__fadeIn");
+      }, {
+          offset: '50%'
+      });
+
+      $(".js--anim-4").waypoint( () => {
+        $(".js--anim-4").addClass("animate__animated  animate__pulse");
+      }, {
+          offset: '50%'
+      });
+  
 
 
 
