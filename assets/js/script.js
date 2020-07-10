@@ -42,5 +42,12 @@ $(document).ready(() => {
 
 
 
+
+    // Animations on scroll
+    $('.js--wp-1').waypoint( direction => {
+        $('.js--wp-1').addClass('animated  .animate__fadeIn');
+    }, {
+        offset: '%50'
+    })
 });
 
