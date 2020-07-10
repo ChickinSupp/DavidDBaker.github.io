@@ -101,6 +101,8 @@ $(document).ready(() => {
   
 
       /*  MOBILE NAV  */
+
+      //not working figure it out.
       $('.js--nav-icon').click(() => {
         $('.js--main-nav').slideToggle(200);
       })
