@@ -15,7 +15,6 @@ $(document).ready(() => {
 
   // scroll on buttons
   $(".js--scroll-to-plan").click((e) => {
-    e.preventDefault();
     $("html, body").animate(
       { scrollTop: $(".js--section-plan").offset().top },
       1000
@@ -75,13 +74,15 @@ $(document).ready(() => {
     });
 
 
-  // Animations on scroll
-  $(".js--wp-1").waypoint(
-    (direction) => {
-      $(".js--wp-1").addClass("animated  .animate__fadeIn");
-    },
-    {
-      offset: "%50",
-    }
-  );
+//   Animations on scroll
+  $(".js--wp-1").waypoint( () => {
+      $(".js--wp-1").addClass("animate__animated  animate__fadeIn");
+    }, {
+        offset: '50%'
+    });
+
+
+
+
 });
+
