@@ -581,6 +581,11 @@ footer p {
 .js--anim-2,
 .js--anim-3 {
     opacity: 0;
+    animation-duration: 1s;
+}
+
+.js--anim-4 {
+    animation-duration: 1s;
 }
 
 .js--anim-1.animate__animated,
