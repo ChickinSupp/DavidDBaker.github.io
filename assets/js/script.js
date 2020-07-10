@@ -1,4 +1,4 @@
-// sticky navigation
+/*  Sticky Nav  */
 $(document).ready(() => {
   $(".js--section-features").waypoint(
     (direction) => {
@@ -13,7 +13,7 @@ $(document).ready(() => {
     }
   );
 
-  // scroll on buttons
+  /*   Scroll on buttons   */
   $(".js--scroll-to-plan").click((e) => {
     $("html, body").animate(
       { scrollTop: $(".js--section-plan").offset().top },
@@ -74,7 +74,7 @@ $(document).ready(() => {
     });
 
 
-//   Animations on scroll
+/*  Animations on scroll  */
   $(".js--anim-1").waypoint( () => {
       $(".js--anim-1").addClass("animate__animated  animate__fadeIn");
     }, {
@@ -100,6 +100,10 @@ $(document).ready(() => {
       });
   
 
+      /*  MOBILE NAV  */
+      $('.js--nav-icon').click(() => {
+        $('.js--main-nav').slideToggle(200);
+      })
 
 
 
