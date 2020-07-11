@@ -75,9 +75,10 @@ $(document).ready(() => {
 
 
 /*  Animations on scroll  */
-  $(".js--anim-1").waypoint( () => {
-      $(".js--anim-1").addClass("animate__animated  animate__fadeIn");
-    }, {
+  $(".js--wp-1").waypoint( () => {
+      $(".js--wp-1").addClass("animate__animated  animate__fadeIn");
+    },
+     {
         offset: '50%'
     });
 
@@ -103,9 +104,9 @@ $(document).ready(() => {
       /*  MOBILE NAV  */
 
       //not working figure it out.
-      $('.js--nav-icon').click(() => {
-        $('.js--main-nav').slideToggle(200);
-      })
+      // $('.js--nav-icon').click(() => {
+      //   $('.js--main-nav').slideToggle(200);
+      // })
 
 
 
