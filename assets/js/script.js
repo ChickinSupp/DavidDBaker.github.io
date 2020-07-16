@@ -21,7 +21,7 @@ $(document).ready(() => {
     );
   });
 
-  $(".js--scroll-to-start").click(function () {
+  $(".js--scroll-to-start").click(() => {
     $("html, body").animate(
       { scrollTop: $(".js--section-features").offset().top },
       1000
@@ -34,7 +34,7 @@ $(document).ready(() => {
     // Remove links that don't actually link to anything
     .not('[href="#"]')
     .not('[href="#0"]')
-    .click(function (event) {
+    .click((event) => {
       // On-page links
       if (
         location.pathname.replace(/^\//, "") ==
@@ -42,7 +42,7 @@ $(document).ready(() => {
         location.hostname == this.hostname
       ) {
         // Figure out element to scroll to
-        var target = $(this.hash);
+        let target = $(this.hash);
         target = target.length
           ? target
           : $("[name=" + this.hash.slice(1) + "]");
@@ -53,12 +53,10 @@ $(document).ready(() => {
           $("html, body").animate(
             {
               scrollTop: target.offset().top,
-            },
-            1000,
-            function () {
+            }, 1000, () => {
               // Callback after animation
               // Must change focus!
-              var $target = $(target);
+              let $target = $(target);
               $target.focus();
               if ($target.is(":focus")) {
                 // Checking if the target was focused
@@ -100,6 +98,9 @@ $(document).ready(() => {
           offset: '50%'
       });
   
+      $('.color-btn').click(() => {
+
+      })
 
       /*  MOBILE NAV  */
 
