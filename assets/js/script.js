@@ -104,9 +104,19 @@ $(document).ready(() => {
       /*  MOBILE NAV  */
 
       //not working figure it out.
-      // $('.js--nav-icon').click(() => {
-      //   $('.js--main-nav').slideToggle(200);
-      // })
+      $('.js--nav-icon').click(() => {
+        $('.js--main-nav').slideToggle(200);
+
+        let icon = $('js--nav-icon i');
+        
+        if (icon.hasClass('fas fa-bars')) {
+          icon.addClass('fas fa-times');
+          icon.removeClass('fas fa-bars');
+        } else {
+          icon.addClass('fas fa-bars');
+          icon.removeClass('fas fa-times');
+        };
+      })
 
 
 
